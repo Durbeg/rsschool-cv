@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,400&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&display=swap');
+
+body {
+    font-family: 'Poppins', 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+}
+
+.container {
+    max-width: 970px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+h3 {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 32px;
+    margin-top: 60px;
+    margin-bottom: 35px;
+}
+
+
+/* =============== HEADER =============== */
+
+.header {
+    background-color: rgb(236, 217, 202);
+}
+
+.header__nav ul {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 25px 25px;
+
+    line-height: 22px;
+
+    color: #828282;
+    transition: color 4s;
+}
+
+.header__nav li {
+    transition: color 0.5s;
+}
+
+.header__nav li:hover {
+    color: #070707;
+}
+
+/* =============== MAIN =============== */
+
+.main {
+    display: inline-block;
+    display: flex;
+    align-items: center;
+    background-color: #d9d7d7;
+}
+
+.info img {
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+}
+
+.info-line {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.info-line h1 {
+    font-family: 'Caveat', cursive;
+
+    letter-spacing: 4px;
+    font-size: 48px;
+    font-weight: 700;
+    border-bottom: 7px solid cornflowerblue;
+    padding-bottom: 30px;
+
+    color: #828282;
+}
+
+.info-line p {
+    font-family: 'Caveat', cursive;
+
+    font-size: 36px;
+    margin-top: 30px;
+    text-align: center;
+}
+
+/* =============== ABOUT =============== */
+
+.about-me {
+    text-align: center;
+    padding: 70px 35px;
+}
+
+.about-me p {
+    font-size: 18px;
+}
+
+/* =============== SKILLS =============== */
+
+.skills h3 {
+    margin-bottom: 50px;
+}
+
+.skills-card {
+    display: flex;
+    justify-content: space-around;
+}
+
+.card {
+    text-align: center;
+}
+
+.card img {
+    width: 90px;
+    height: 90px;
+    padding-bottom: 15px;
+}
+
+/* =============== CODE =============== */
+
+.block-expirence {
+    text-align: center;
+}
+
+/* =============== EDUCATION =============== */
+
+.education p {
+    text-align: center;
+}
+
+/* =============== CONTACTS =============== */
+
+.block-contacts a {
+    color: rgb(87, 168, 240)
+}
+
+/* =============== FOOTER =============== */
+
+.footer {
+    background-color: rgb(236, 217, 202);
+    height: 72px;
+}
+
+.block-footer {
+    display: flex;
+    justify-content: space-between;
+
+    padding-top: 16px;
+}
+
+.block-footer img {
+    height: 45px;
+    width: 120px;
+    object-fit: cover;
+    background-size: contain;
+}
+
+.copyright {}
+
+.logo-school {}
